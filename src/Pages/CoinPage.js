@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   sidebar: {
-    width: "30%",
+    width: "100%",
     [theme.breakpoints.down("md")]: {
       width: "100%",
     },
@@ -154,7 +154,7 @@ const CoinPage = () => {
           </span>
         </div>
       </div>
-      <CoinInfo coin={coin} />
+      {/* <CoinInfo coin={coin} /> */}
     </div>
   );
 };
